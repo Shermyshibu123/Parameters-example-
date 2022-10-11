@@ -26,8 +26,4 @@ pipeline {
             }
         }
     }
-  post{
-    always{
-      echo 'It will run again!'
-    }}
 }
